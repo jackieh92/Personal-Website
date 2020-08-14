@@ -1,0 +1,38 @@
+.about {
+    background-color: #002442;
+    color:white;
+    padding:100px;
+}
+ .center {
+    text-align: center;
+ }
+
+ .margin-top {
+     margin-top:80px;
+ }
+
+ .line {
+     border: white solid 1px;
+     width:150px;
+     margin: 0 auto;
+     
+ }
+
+.line-margin {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.line-margin-top {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.about-title img {
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 150%;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-top:20px;
+}

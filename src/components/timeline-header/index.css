@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+    #timeline-title {
+        text-align: center;
+        margin-top:-25px;
+    }
+    .lsh {
+        margin: 0;
+        padding: 50px;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 46px;
+        color: black;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 0.7em;
+        text-align: center;
+    }
+    .letterDrop {
+        position: relative;
+        top: 0.10em;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 0.7em;
+        opacity: 0.8;
+        transform: rotateX(-90deg);
+        animation: letterDrop 3s both;
+    }
+    @keyframes letterDrop {
+        10% {
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 0.8;
+            top: 1.75em;
+            transform: rotateX(-360deg);
+        }
+        100% {
+            opacity: 1;
+            top: 2.50em;
+            transform: rotateX(360deg);
+        }
+    }
+    span:nth-child(even) {
+        color: #0400ff;
+    }
+    span:nth-child(odd) {
+        color: #01146b;
+    }
+

@@ -1,0 +1,93 @@
+.header {
+    background-image: linear-gradient(to right bottom, rgba(47, 69, 141, 0.7), rgba(57, 153, 116, 0.274)), url("http://www.sashasasha.tech/background/wall.jpg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+    margin-top:100px;
+    color: rgb(255, 255, 255);
+    animation: fadeInDown 2s;
+    opacity: 0.9;
+}
+
+.logo h2 {
+    color:rgb(0, 110, 255);
+}
+
+.logoname {
+    font-size: 70px;
+    border: 20px solid rgb(0, 110, 255);
+    text-align: center;
+    padding: 20px;
+    background-color:#ffffff3b ;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+#inspire {
+    margin:0 auto;
+    color: white;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    /*  border-right: .15em solid whitesmoke;  The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    /*  margin: 0 auto;  Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em;
+    /* Adjust as needed */
+    animation: typingInspire 3s steps(30, end);
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+#inspire h3 {
+    letter-spacing: 6px;
+    font-family: 'Righteous', cursive;
+    font-size: 250%;
+    margin-top:200px;
+}
+@keyframes typingInspire {
+    from {
+        width: 0
+    }
+    to {
+        width: 55%
+    }
+}
+
+#arrow {
+    animation: fadeInDown 3s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    text-align: center;
+}
+#arrow img {
+    width: 10%;
+    margin-top:50px;
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}

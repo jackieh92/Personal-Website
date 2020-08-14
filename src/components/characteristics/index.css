@@ -1,0 +1,9 @@
+.background-image {
+        background-image: linear-gradient(to right bottom, rgba(47, 69, 141, 0.7), rgba(57, 153, 116, 0.274)), url("http://www.sashasasha.tech/background/wall.jpg");
+        min-height: 750px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white;
+}
